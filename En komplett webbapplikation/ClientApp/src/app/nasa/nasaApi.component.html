@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+  helowwwwwwwwwwwwwwwww
+
+  <div *ngFor="let item of data.photos ">
+    <h1> {{item.id}}</h1>
+    {{item.sol}}
+  <p>  {{item.earth_date | date}}</p>
+    {{item.camera.id}}
+    <img src="{{item.img_src}}" width="100" height="100" />
+    <hr />
+  </div>
+  <!--<ul>
+    <li *ngFor="let user of data"></li>
+  </ul>-->
+
+
+
+</body>
+</html>
